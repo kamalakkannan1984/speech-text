@@ -1,0 +1,16 @@
+{
+    "watch": [
+        "*"
+    ],
+    "ext": "ts",
+    "exec": "set GOOGLE_APPLICATION_CREDENTIALS=unifiedring-82ddf2ee00ec.json&&ts-node ./index.ts",
+    "env": {
+        "API_IP": "localhost",
+        "API_PORT": "3000",
+        "ALLOWED_ORIGIN_IP": "localhost",
+        "ALLOWED_ORIGIN_PORT": 4200,
+        "SESSION_STORE_HOST": "localhost",
+        "STORE_IP": "localhost",
+        "STORE_PORT": "27017"
+    }
+}
